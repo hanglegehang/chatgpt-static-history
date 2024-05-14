@@ -5,7 +5,7 @@ services:
     ports:
       - "8080:80"
     volumes:
-      - ./cdn.oaistatic.com/FUn368sO8Yo1nq60-uOqJ:/usr/share/nginx/html
+      - ./cdn.wm.com/20240514181713/FUn368sO8Yo1nq60-uOqJ:/usr/share/nginx/html
       - ./default.conf:/etc/nginx/conf.d/default.conf
 
     restart: unless-stopped

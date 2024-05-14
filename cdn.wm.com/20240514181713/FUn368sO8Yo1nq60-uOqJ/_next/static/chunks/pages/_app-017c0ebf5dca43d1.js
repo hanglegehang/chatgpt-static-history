@@ -10562,7 +10562,8 @@
         var r = n(3755), a = n(70079);
 
         function i() {
-            return (0, r.fW)("chatgpt_fruit_juice").value
+            return true
+            // return (0, r.fW)("chatgpt_fruit_juice").value
         }
 
         function o() {
@@ -11280,7 +11281,7 @@
         }
 
         function O(e) {
-            return "".concat("/").concat(M(e))
+            return "https://chatgpt.com".concat("/").concat(M(e))
         }
 
         function P(e) {
@@ -28303,7 +28304,7 @@
         var r = n(3755);
         let a = () => {
             let {value: e} = (0, r.fW)("chatgpt_web_ms_refactor");
-            return e
+            return true
         }
     }, 67606: function (e, t, n) {
         "use strict";
